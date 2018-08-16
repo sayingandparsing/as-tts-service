@@ -1,0 +1,16 @@
+
+
+message SpeechRequest {
+    required TextContent text = 1;
+    optional float rate = 2;
+    optional bool play = 3;
+
+}
+
+// enum Voice {
+//     FEMALE = "en-US-Wavenet-C"
+// }
+
+message TextContent {
+    repeated string part = 1;
+}

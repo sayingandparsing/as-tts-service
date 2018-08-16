@@ -1,0 +1,23 @@
+{
+  "name": "as-tts-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayingandparsing/as-tts-service.git"
+  },
+  "author": "Reagan Mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayingandparsing/as-tts-service/issues"
+  },
+  "homepage": "https://github.com/sayingandparsing/as-tts-service#readme",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^0.3.0",
+    "grpc": "^1.14.1"
+  }
+}
